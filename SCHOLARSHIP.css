@@ -1,0 +1,99 @@
+.h1 {
+  width: 100%;
+  font-size: 100px;
+  background-color: black;
+  border: 20px solid black;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: white;
+  display: flex;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+form {
+  background-image: linear-gradient(green, yellow);
+  border: 20px solid black;
+  border-top-left-radius: 170px;
+  border-bottom-right-radius: 170px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+@media (min-width:1500px; ) .but {
+  letter-spacing: 60px;
+}
+
+.h1 {
+  font-size: 1000px;
+  text-align: center;
+  background-color: black;
+  border: 20px solid black;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: white;
+  display: inline;
+  font-size: 60px;
+  text-align: center;
+  float: left;
+}
+
+p {
+  font-size: 25px;
+}
+
+form {
+  background-image: linear-gradient(green, yellow);
+  padding: 70px;
+  border: 20px solid black;
+  border-top-left-radius: 170px;
+  border-bottom-right-radius: 170px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+@media (max-width:500px; ) .h1 {
+  font-size: 3px;
+  text-align: center;
+  overflow: hidden;
+}
+
+p {
+  font-size: 13px;
+}
+
+form {
+  width: 100%;
+  border-width: auto;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: auto;
+  border: 3px solid black;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  align-content: space-between;
+}
+
+@media (min-width:500px; max-width:1500px; ) a {
+  margin-bottom: 10px;
+}
